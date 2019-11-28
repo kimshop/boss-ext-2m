@@ -1534,7 +1534,37 @@ while True:
 				embed.add_field(name='5시간', value='사르카', inline=False)
 				embed.add_field(name='6시간', value='베히모스', inline=False)
 				embed.add_field(name='7시간', value='코어', inline=False)
-				embed.add_field(name='11시간', value='', inline=False)
+				embed.add_field(name='11시간', value='드래곤비스트', inline=False)
+				await client.get_channel(channel).send(embed=embed, tts=False)
+
+			##################################
+			
+			if message.content == '//':
+				embed = discord.Embed(
+						title='----- 보스 리젠 타임 -----',
+						description= ' ')
+				embed.add_field(name='황무지 남부', value='바실라(2)', inline=False)
+				embed.add_field(name='절망의 폐허', value='켈소스(2)', inline=False)				
+				embed.add_field(name='죽음의 회랑', value='릴리(2)', inline=False)				
+				embed.add_field(name='체르투바의 막사', value='체르투바(3)', inline=False)				
+				embed.add_field(name='개미굴 지하 2층', value='사반(3)', inline=False)				
+				embed.add_field(name='비하이브', value='펠리스(3)', inline=False)				
+				embed.add_field(name='반란군 아지트', value='탈라킨(3)', inline=False)				
+				embed.add_field(name='디온 구릉지', value='판드라이드(3)', inline=False)				
+				embed.add_field(name='시체처리소', value='템페스트(3)', inline=False)				
+				embed.add_field(name='메두사의 정원', value='메두사(3)', inline=False)				
+				embed.add_field(name='개미굴 지하 3층', value='여왕개미(4)', inline=False)				
+				embed.add_field(name='디온 목초지', value='엔쿠라(4)', inline=False)				
+				embed.add_field(name='크루마 습지', value='크루마(4)', inline=False)				
+				embed.add_field(name='플로란 개간지', value='티미트리스(4)', inline=False)				
+				embed.add_field(name='거인의 흔적', value='스탄(4)', inline=False)				
+				embed.add_field(name='약탈자의 야영지', value='마투라(4)', inline=False)				
+				embed.add_field(name='브래카 소굴', value='브래카(4)', inline=False)				
+				embed.add_field(name='고르곤의 화원', value='판나로드(4)', inline=False)				
+				embed.add_field(name='텔루 리자드맨 서식지', value='사르카(5)', inline=False)
+				embed.add_field(name='용의계곡 북부', value='베히모스(6)', inline=False)
+				embed.add_field(name='크루마탑 지하 7층', value='코어(7)', inline=False)
+				embed.add_field(name='안타라스의 동굴 지하 6층', value='드래곤비스트', inline=False)
 				await client.get_channel(channel).send(embed=embed, tts=False)
 
 			################ 명존쎄 ################ 
