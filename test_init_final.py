@@ -1564,7 +1564,7 @@ while True:
 				embed.add_field(name='텔루 리자드맨 서식지', value='사르카(5)', inline=False)
 				embed.add_field(name='용의계곡 북부', value='베히모스(6)', inline=False)
 				embed.add_field(name='크루마탑 지하 7층', value='코어(7)', inline=False)
-				embed.add_field(name='안타라스의 동굴 지하 6층', value='드래곤비스트', inline=False)
+				embed.add_field(name='안타라스의 동굴 지하 6층', value='드래곤비스트(11)', inline=False)
 				await client.get_channel(channel).send(embed=embed, tts=False)
 
 			################ 명존쎄 ################ 
