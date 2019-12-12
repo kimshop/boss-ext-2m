@@ -1812,8 +1812,7 @@ while True:
 				embed.add_field(name='크루마탑 7층', value='코어수스캡터(10시간)', inline=False)
 				embed.add_field(name='개미굴 2층', value='사반(12시간)', inline=False)
 				embed.add_field(name='안타라스의 동굴 6층', value='드래곤비스트(12시간)', inline=False)
-				await
-				client.get_channel(channel).send(embed=embed, tts=False)
+				await client.get_channel(channel).send(embed=embed, tts=False)
 
 			################ 명존쎄 ################ 
 
